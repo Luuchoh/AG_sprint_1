@@ -81,3 +81,23 @@ main{
     color: var(--color-green);
     text-decoration: none;
 }
+
+@media (min-width: 600px) {  
+
+    main{
+        width: 70%;
+        margin: auto;
+        background-color: inherit;
+        margin-bottom: 76px;
+    }
+}
+
+@media (min-width: 1280px) {  
+
+    main{
+        width: 40%;
+        margin: auto;
+        background-color: inherit;
+        margin-top: 76px;
+    }
+}
