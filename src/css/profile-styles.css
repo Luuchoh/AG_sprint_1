@@ -6,6 +6,16 @@ main{
     margin-bottom: 76px;
 }
 
+.home{
+    color: var(--color-white) !important;
+}
+.statitics{
+    color: var(--color-white) !important;
+}
+.profile{
+    color: var(--color-green) !important;
+}
+
 .title-main{
     width: 100%;
     padding: 16px;

@@ -5,6 +5,15 @@ main{
     background-color: inherit;
     margin-bottom: 76px;
 }
+.home{
+    color: var(--color-white) !important;
+}
+.statitics{
+    color: var(--color-green) !important;
+}
+.profile{
+    color: var(--color-white);
+}
 
 .title-main{
     width: 100%;
