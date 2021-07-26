@@ -64,54 +64,23 @@ main{
 
 @media (min-width: 600px) {  
 
-    .menu-bar{
-        /* Auto Layout */
-        display:flex;
-        flex-direction:row; 
-        align-content: space-between;
-        width: 400px;
-        height: 400px;
-        position: fixed;
-        bottom: 0px;
-        border-radius: 10%;
-        transform: translateX(60%);
-        transform: translateY(80%);
-        z-index: 0;
+    main{
+        width: 80%;
+        margin: auto;
+        background-color: inherit;
+        margin-bottom: 76px;
     }
+}
 
-    .opcion{
-        align-items: center;
+@media (min-width: 1280px) {  
+
+    main{
+        width: 70%;
+        margin: auto;
+        background-color: inherit;
+        margin-top: 76px;
     }
-
-
-
-}        
-@media (min-width: 1240px) {
-
-
-    .menu{
-        /* Auto Layout */
-        display:flex;
-        flex-direction:row; 
-        align-content: space-between;
-        width: 400px;
-        height: 400px;
-        position: fixed;
-        bottom: 100px;
-        top: 0px;
-        border-radius: 10%;
-        transform: translateX(60%);
-        transform: translateY(-80%);
-        z-index: 0;
-    }
-        
-    .opcion{
-        transform: translateY(320px);
-        align-items: center;
-    }    
-
-
-}        
+}
         
 
 
