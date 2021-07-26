@@ -1,5 +1,5 @@
 
 function redireccionar(){
-    window.location = "./views/home.html";
+    window.location = "./views/login.html";
 } 
 setTimeout ('redireccionar()', 3000);
