@@ -1,0 +1,54 @@
+.menu-bar{
+    background-color: var(--color-neutral);
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+    position: fixed;
+    display: inline-block;
+    z-index: 1;
+}
+.menu-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-bar ul li{
+    display: flex;
+    align-items: center;
+    width: calc(25% - 15px);
+    padding: 10px;
+}
+.li-estadisticas{
+    width: calc(40% - 15px) !important;
+}
+.opcion{
+    width: 100%;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--color-white);
+    text-align: center;
+    box-sizing: border-box;
+}
+.opcion .icon{
+    display: inline-block;
+    width: 100%;
+}
+.opcion span{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.home{
+    color: var(--color-green);
+}
+.statitics{
+    color: var(--color-white);
+}
+.profile{
+    color: var(--color-white);
+}

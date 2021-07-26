@@ -1,0 +1,52 @@
+
+main{
+    width: 90%;
+    margin: auto;
+    background-color: inherit;
+    margin-bottom: 76px;
+}
+
+.title-main{
+    width: 100%;
+    padding: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: start;
+}
+
+.container-personal-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.img-personal{
+    width: 60%;
+    text-align: center;
+
+}
+.img-personal img{
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.personal-info{
+    width: 100%;
+    text-align: center;
+}
+.personal-info p{
+    margin: 0;
+}
+
+.log-out{
+    width: 100%;
+    text-align: center;
+}
+.log-out a{
+    text-decoration: none;
+    color: var(--color-red);
+}

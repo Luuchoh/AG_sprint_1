@@ -1,0 +1,57 @@
+:root{
+    --font-family-rubik: 'Rubik', sans-serif;
+    --font-family: 'Nunito', sans-serif;
+    --color-negro: #000000;
+    --color-black: #16161A;
+    --color-white: #FFFFFE;
+    --color-grey: #94A1B2;
+    --color-green: #2CB67D;
+    --color-red: #EF4565;  
+    --color-purple: #6B47DC;   
+    --color-neutral: #232E35;
+    --color-primary: #7F5AF0;
+    --color-secondary: #A786DF;
+    --color-tertiary: #72757E;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-purple);
+}
+.logo{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.logo img{
+    width: auto;
+}
+
+.preloader {
+    width: 30px;
+    height: 30px;
+    border: 5px solid var(--color-white);
+    border-top: 5px solid var(--color-grey);
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

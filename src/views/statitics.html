@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="shortcut icon" href="../assets/icon-daily-bits-purple.png" type="image/x-icon">
+     
+    <link rel="stylesheet" href="../css/all-styles.css">    
+    <link rel="stylesheet" href="../css/navbar.css">   
+    <link rel="stylesheet" href="../css/statitics-styles.css">    
+
+    <title>Daily bits | home</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu-bar">
+            <ul>
+                <li>
+                    <a class="opcion home" href="home.html">
+                        <img src="../assets/icon-home-g.png" alt="">
+                        <span>home</span>
+                    </a>
+                </li>
+                <li class="li-estadisticas">
+                    <a class="opcion statitics" href="statitics.html">
+                        <img src="../assets/icon-statitics-w.png" alt="">
+                        <span>estadisticas</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="opcion profile" href="profile.html">
+                        <img src="../assets/icon-perfil-w.png" alt="">
+                        <span>perfil</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h5 class="title-main">
+            Estadísticas
+        </h5>
+        <div class="form">
+            <form action="">
+                <select name="dias" id="dias" >
+                    <option value="7"> Los últimos 7 días</option>
+                    <option value="14"> Los últimos 14 días</option>
+                    <option value="30"> El último mes</option>
+                </select>
+            </form>
+        </div>
+        <div class="container-info-statitics">
+            <div class="info-statitics">
+                <i class="far fa-clock"></i>
+                <p>Tiempo de estudio en (horas)</p>
+                <div class="result-hours">
+                    <span>1</span>
+                </div>
+            </div>
+            <div class="info-statitics">
+                <i class="far fa-comment"></i>
+                <p>Respuestas contestadas</p>
+                <div class="result-complete">
+                    <span>1</span>
+                </div>
+            </div>
+            <div class="info-statitics">
+                <i class="far fa-comment"></i>
+                <p>Respuestas correctas</p>
+                <div class="result-correct">
+                    <span>1</span>
+                </div>
+            </div>
+            <div class="info-statitics">
+                <i class="far fa-comment"></i>
+                <p>Respuesta incorrectas</p>
+                <div class="result-incorrect">
+                    <span>1</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
